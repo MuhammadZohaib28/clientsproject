@@ -1,0 +1,224 @@
+.jointoday {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 10rem;
+  background-color: #679436;
+  overflow: visible;
+  align-content: center;
+  flex-wrap: nowrap;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='200%' height='200%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='30' height='30' patternTransform='scale(2.1) rotate(45)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(89, 47%, 40%, 1)'/><path d='M3.25 10h13.5M10 3.25v13.5' transform='translate(5,0)' stroke-linecap='square' stroke-width='2' stroke='hsla(93, 28%, 62%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  //   gap: 40rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    h1 {
+      width: 100%;
+      height: auto;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      word-break: break-word;
+      max-width: 800px;
+      overflow: visible;
+      font-weight: 400;
+      font-style: normal;
+      font-family: "Goblin One", sans-serif;
+      color: #000000;
+      font-size: 48px;
+      letter-spacing: 0em;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    p {
+      width: 500px;
+      height: auto;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      word-break: break-word;
+      max-width: 100%;
+      overflow: visible;
+      font-weight: 400;
+      font-style: normal;
+      font-family: "Martian Mono", monospace;
+      color: #000000;
+      font-size: 16px;
+      letter-spacing: 0em;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    span {
+      width: auto;
+      height: auto;
+      white-space: pre;
+      font-weight: 400;
+      font-style: normal;
+      font-family: "Martian Mono", monospace;
+      color: #ffffff;
+      font-size: 14px;
+      letter-spacing: 0em;
+      line-height: 1.2;
+      text-align: center;
+      background-color: black;
+      padding: 0.8rem;
+      border-radius: 0.1rem;
+    }
+  }
+}
+
+@media (min-width: 810px) {
+  .jointoday {
+    padding: 7rem 5rem;
+
+    .container {
+      h1 {
+      }
+
+      p {
+        width: 80%;
+        font-size: 22px;
+      }
+
+      span {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1199px) {
+  .jointoday {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 10rem;
+    background-color: #679436;
+    overflow: visible;
+    align-content: center;
+    flex-wrap: nowrap;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='200%' height='200%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='30' height='30' patternTransform='scale(2.1) rotate(45)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(89, 47%, 40%, 1)'/><path d='M3.25 10h13.5M10 3.25v13.5' transform='translate(5,0)' stroke-linecap='square' stroke-width='2' stroke='hsla(93, 28%, 62%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+    //   gap: 40rem;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+
+      h1 {
+        width: 100%;
+        height: auto;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        word-break: break-word;
+        max-width: 800px;
+        overflow: visible;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Goblin One", sans-serif;
+        color: #000000;
+        font-size: 48px;
+        letter-spacing: 0em;
+        line-height: 1.2;
+        text-align: center;
+      }
+
+      p {
+        width: 500px;
+        height: auto;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        word-break: break-word;
+        max-width: 100%;
+        overflow: visible;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Martian Mono", monospace;
+        color: #000000;
+        font-size: 16px;
+        letter-spacing: 0em;
+        line-height: 1.5;
+        text-align: center;
+      }
+
+      span {
+        width: auto;
+        height: auto;
+        white-space: pre;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Martian Mono", monospace;
+        color: #ffffff;
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 1.2;
+        text-align: center;
+        background-color: black;
+        padding: 0.8rem;
+        border-radius: 0.1rem;
+      }
+    }
+  }
+}
+
+
+@media (max-width:430px) {
+  .jointoday {
+    padding: 5rem 2rem;
+  
+    .container {
+      
+  
+      h1 {
+        font-size: 2.3rem;
+      }
+  
+      p {
+        width: 100%;
+        height: auto;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        word-break: break-word;
+        max-width: 100%;
+        overflow: visible;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Martian Mono", monospace;
+        color: #000000;
+        font-size: 16px;
+        letter-spacing: 0em;
+        line-height: 1.5;
+        text-align: center;
+      }
+  
+      span {
+        width: auto;
+        height: auto;
+        white-space: pre;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Martian Mono", monospace;
+        color: #ffffff;
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 1.2;
+        text-align: center;
+        background-color: black;
+        padding: 0.8rem;
+        border-radius: 0.1rem;
+      }
+    }
+  }
+  
+}

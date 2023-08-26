@@ -1,0 +1,245 @@
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 7rem;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='30' height='30' patternTransform='scale(2) rotate(45)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(212, 60%, 95%, 1)'/><path d='M3.25 10h13.5M10 3.25v13.5' transform='translate(5,0)' stroke-linecap='square' stroke-width='1' stroke='hsla(72, 51%, 73%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+
+  .left {
+    .headertext {
+      display: flex;
+      flex-direction: column;
+      //   border: 1px solid red;
+
+      h1:first-child {
+        // font-family: "Goblin One", sans-serif;
+        // color: #05668d;
+        // letter-spacing: 0.2rem;
+        // font-size: 2.5rem;
+
+        width: 100%;
+        height: auto;
+        white-space: pre;
+        overflow: visible;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Goblin One", sans-serif;
+        color: #05668d;
+        font-size: 3.125rem;
+        letter-spacing: 0rem;
+        text-transform: uppercase;
+        line-height: 1;
+      }
+      h1:last-child {
+        // font-family: "Martian Mono", monospace;
+        // color: #000000;
+        // font-size: 3rem;
+
+        width: 100%;
+        height: auto;
+        white-space: pre;
+        overflow: visible;
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Martian Mono", monospace;
+        color: #000000;
+        font-size: 3.19rem;
+        letter-spacing: 0.4rem;
+        line-height: 1;
+      }
+    }
+  }
+
+  .right {
+    width: 301px;
+    height: 301px;
+    border-radius: 0px 0px 0px 0px;
+  }
+}
+
+// FOR TABLET  1199 ---- 810
+
+@media (min-width: 810px) {
+  .header {
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='30' height='30' patternTransform='scale(2) rotate(45)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(212, 60%, 95%, 1)'/><path d='M3.25 10h13.5M10 3.25v13.5' transform='translate(5,0)' stroke-linecap='square' stroke-width='1' stroke='hsla(72, 51%, 73%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    // gap: 8rem;
+    align-items: center;
+    padding: 0 2rem;
+
+    .left {
+      .headertext {
+        display: flex;
+        flex-direction: column;
+        // border: 1px solid red;
+        align-items: center;
+        padding: 10px 30px;
+
+        h1:first-child {
+          font-weight: 400;
+          //   font-style: normal;
+          font-family: "Goblin One", sans-serif;
+          color: #05668d;
+          font-size: 2.5rem;
+        }
+        h1:last-child {
+          // font-family: "Martian Mono", monospace;
+          // color: #000000;
+          // font-size: 3rem;
+
+          width: 100%;
+          height: auto;
+          white-space: pre;
+          overflow: visible;
+          font-weight: 400;
+          font-style: normal;
+          font-family: "Martian Mono", monospace;
+          color: #000000;
+          font-size: 2.68rem;
+          letter-spacing: 0.4rem;
+          line-height: 1;
+        }
+      }
+    }
+
+    .right {
+      width: 310px;
+      height: 310px;
+
+      svg {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+@media (min-width: 1199px) {
+  .header {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 7rem;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='30' height='30' patternTransform='scale(2) rotate(45)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(212, 60%, 95%, 1)'/><path d='M3.25 10h13.5M10 3.25v13.5' transform='translate(5,0)' stroke-linecap='square' stroke-width='1' stroke='hsla(72, 51%, 73%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+
+    .left {
+      .headertext {
+        display: flex;
+        flex-direction: column;
+        //   border: 1px solid red;
+
+        h1:first-child {
+          // font-family: "Goblin One", sans-serif;
+          // color: #05668d;
+          // letter-spacing: 0.2rem;
+          // font-size: 2.5rem;
+
+          width: 100%;
+          height: auto;
+          white-space: pre;
+          overflow: visible;
+          font-weight: 400;
+          font-style: normal;
+          font-family: "Goblin One", sans-serif;
+          color: #05668d;
+          font-size: 3.125rem;
+          letter-spacing: 0rem;
+          text-transform: uppercase;
+          line-height: 1;
+        }
+        h1:last-child {
+          // font-family: "Martian Mono", monospace;
+          // color: #000000;
+          // font-size: 3rem;
+
+          width: 100%;
+          height: auto;
+          white-space: pre;
+          overflow: visible;
+          font-weight: 400;
+          font-style: normal;
+          font-family: "Martian Mono", monospace;
+          color: #000000;
+          font-size: 3.19rem;
+          letter-spacing: 0.4rem;
+          line-height: 1;
+        }
+      }
+    }
+
+    .right {
+      width: 301px;
+      height: 301px;
+      border-radius: 0px 0px 0px 0px;
+    }
+  }
+}
+
+
+
+@media (max-width: 430px) {
+  .header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    padding: 3rem 1rem;
+    
+  
+    .left {
+      .headertext {
+        display: flex;
+        flex-direction: column;
+          // border: 1px solid red;
+  
+        h1:first-child {
+          // font-family: "Goblin One", sans-serif;
+          // color: #05668d;
+          // letter-spacing: 0.2rem;
+          // font-size: 2.5rem;
+  
+          width: 100%;
+          height: auto;
+          white-space: pre;
+          overflow: visible;
+          font-weight: 400;
+          font-style: normal;
+          font-family: "Goblin One", sans-serif;
+          color: #05668d;
+          font-size: 2.4rem;
+          letter-spacing: 0rem;
+          text-transform: uppercase;
+          line-height: 1;
+        }
+        h1:last-child {
+          width: 100%;
+
+          white-space: pre;
+          overflow: visible;
+          font-weight: 400;
+          font-style: normal;
+          font-family: "Martian Mono", monospace;
+          color: #000000;
+          font-size: 2.4rem;
+          letter-spacing: 0.4rem;
+          line-height: 1;
+        }
+      }
+    }
+  
+    .right {
+      width: 60%;
+      height: 60%;
+      border-radius: 0px 0px 0px 0px;
+    }
+  }
+  
+}
